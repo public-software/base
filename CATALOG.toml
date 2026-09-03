@@ -1,0 +1,24 @@
+# Machine-readable entry for this repository. Aggregated into public-software/catalog.
+# Edit here; `pub catalog sync` propagates description, topics and custom properties to GitHub.
+
+[repo]
+name        = "base"
+ring        = "system"          # spine | platform | system | domain | standards
+layers      = ["L4"]
+wave        = 1
+tier        = "incubating"        # incubating | stable | core | archived
+maintainers = ["maint-base"]
+summary     = "Init {{PURPOSE}} service manager, journal, util-linux/procps parity, disk encryption, accessibility bus, screen reader."
+
+# One [[component]] per crate, app or service this workspace publishes.
+# planned: pubd-init · pubd-journal · utils · pub-crypt (LUKS2) · pub-a11y-bus · pub-reader
+#
+# [[component]]
+# crate     = "pub-base-example"
+# kind      = "lib"                # lib | app | service | plugin | spec
+# ledger    = "<ledger entry name>"
+# readiness = "none"               # shipped | partial | seed | none
+# effort    = 3
+# specs     = []
+# provides  = ["public:area/iface@1"]
+# requires  = []
